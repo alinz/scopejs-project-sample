@@ -1,0 +1,22 @@
+{
+    "name": "scopejs-project-sample",
+    "description": "Boilerplate ScopeJS Project Sample",
+    "author": {
+        "name": "Ali Najafizadeh",
+        "email": "a.najafizadeh@gmail.com",
+        "url": "http://blog.unilius.com"
+    },
+    "version": "0.0.1",
+    "dependencies": {
+        "filegroupjs": "0.0.2",
+        "scopejs": "0.2.0"
+    },
+    "devDependencies": {
+        "simpletestjs": "0.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alinz/scopejs-project-sample.git"
+    },
+    "engine": "node >= 0.10.0"
+}
