@@ -6,7 +6,11 @@ var scope = require("scopejs"),
     main = "Main";
 
 fileGroup(path, function (files) {
-    files.forEach(function (file) {
+    var endsWithDotJS = /.+\.js$/;
+
+    files.filter(function (file) {
+        return endsWithDotJS.test(file);
+    }).forEach(function (file) {
         require("./" + file);
     });
 
